@@ -35,7 +35,7 @@
 			<key>CFBundleTypeName</key>
 			<string>{{ document_type.description }}</string>
 			<key>CFBundleTypeIconFile</key>
-			<string>{{ cookiecutter.app_name }}-{{ document_type_id }}.icns</string>
+			<string>{{ cookiecutter.app_name }}.icns</string>
 			<key>CFBundleTypeRole</key>
 			<string>{{ macOS.CFBundleTypeRole }}</string>
 			<key>LSHandlerRank</key>
@@ -62,7 +62,7 @@
 			<key>UTTypeDescription</key>
 			<string>{{ document_type.description }}</string>
 			<key>UTTypeIconFile</key>
-			<string>{{ cookiecutter.app_name }}-{{ document_type_id }}.icns</string>
+			<string>{{ cookiecutter.app_name }}.icns</string>
 			<key>UTTypeIdentifier</key>
 			{% if macOS.LSItemContentTypes is defined -%}
 			<string>{{ macOS.LSItemContentTypes[0] }}</string>
